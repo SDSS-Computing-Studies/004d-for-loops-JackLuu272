@@ -22,3 +22,11 @@ enter a number:4
 ****
 
 """
+
+number = input("enter a number: ")
+x = ("*")
+for i in x:
+    print(i * int(number))
+    for i in range(1,int(number)):
+        print(x * int(number))
+

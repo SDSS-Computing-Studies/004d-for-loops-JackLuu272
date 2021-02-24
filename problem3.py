@@ -17,3 +17,9 @@ example:
 enter a number: 4
 the sum of the series is 1234
 """
+
+number = input("enter a number: ")
+
+for i in range(1,11):
+    x = sum(i * int(number))
+    print(x)
