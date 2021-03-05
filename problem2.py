@@ -41,7 +41,7 @@ Invalid input
 number = int(input("Enter a number: "))
 x = 1
 if number < 0:
-    print("invalid input")
+    print("Invalid input")
 elif number == 0:
     print("0! is 1")
 else:
