@@ -38,7 +38,7 @@ Enter a number: -4
 Invalid input
 """
 
-number = input("Enter a number: ").strip
+number = int(input("Enter a number: "))
 x = 1
 if int(number) < 0:
     print("invalid input")
