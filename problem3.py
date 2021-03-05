@@ -18,5 +18,13 @@ enter a number: 4
 the sum of the series is 1234
 """
 
-number = input("enter a number: ")
+number = int(input("enter a number: "))
+x = 0
+y = 1
 
+for i in range(1,number + 1):
+    x = x + y
+    y = (10*y) + 1
+
+print("the sum of the series is",x)
+    
