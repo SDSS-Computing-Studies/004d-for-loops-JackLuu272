@@ -40,11 +40,11 @@ Invalid input
 
 number = int(input("Enter a number: "))
 x = 1
-if int(number) < 0:
+if number < 0:
     print("invalid input")
-elif int(number) == 0:
+elif number == 0:
     print("0! is 1")
 else:
-    for i in range(1,int(number)+1):
+    for i in range(1,number+1):
         x = x*i
-    print(str(int(number)) + "!","is",x)
+    print(str(number) + "!","is",x)
